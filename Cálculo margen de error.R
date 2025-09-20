@@ -1,8 +1,7 @@
 # ¿Cómo obtener el margen de error? #
-# Únicamente cambia el n y el N, y la z en caso de modificar el nivel 
-# de confianza, aunque ya vienen las tres fórmulas abajo.
+# Únicamente cambia el n y el N, y la z en caso de modificar el nivel de confianza, aunque ya vienen las tres fórmulas abajo.
 
-#Con un nivel de confianza del 97%:
+# Con un nivel de confianza del 97%:
 
 # Datos necesarios:
 n <- 70 # Tamaño de la muestra
@@ -45,3 +44,4 @@ E <- Z * sqrt((p * (1 - p) / n) * ((N - n) / (N - 1)))
 
 error_porcentaje <- E * 100
 print(paste("Margen de error:", round(error_porcentaje, 2), "%"))
+
