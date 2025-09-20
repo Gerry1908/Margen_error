@@ -1,2 +1,2 @@
-#Margen de error
+# Margen de error
 Este script 
